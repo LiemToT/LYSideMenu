@@ -15,6 +15,7 @@
 		B24619951CFFD85800BBE24F /* LYSideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24619941CFFD85800BBE24F /* LYSideMenuTests.swift */; };
 		B24619A01CFFD85800BBE24F /* LYSideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246199F1CFFD85800BBE24F /* LYSideMenuUITests.swift */; };
 		B24619AE1CFFE3E900BBE24F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24619AD1CFFE3E900BBE24F /* HomeViewController.swift */; };
+		B2C3F6551D00298400B8F9A8 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3F6541D00298400B8F9A8 /* LeftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B246199F1CFFD85800BBE24F /* LYSideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYSideMenuUITests.swift; sourceTree = "<group>"; };
 		B24619A11CFFD85800BBE24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B24619AD1CFFE3E900BBE24F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B2C3F6541D00298400B8F9A8 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B24619881CFFD85800BBE24F /* LaunchScreen.storyboard */,
 				B246198B1CFFD85800BBE24F /* Info.plist */,
 				B24619AD1CFFE3E900BBE24F /* HomeViewController.swift */,
+				B2C3F6541D00298400B8F9A8 /* LeftViewController.swift */,
 			);
 			path = LYSideMenu;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24619821CFFD85800BBE24F /* ViewController.swift in Sources */,
+				B2C3F6551D00298400B8F9A8 /* LeftViewController.swift in Sources */,
 				B24619801CFFD85800BBE24F /* AppDelegate.swift in Sources */,
 				B24619AE1CFFE3E900BBE24F /* HomeViewController.swift in Sources */,
 			);
@@ -489,6 +493,7 @@
 				B24619A61CFFD85800BBE24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B24619A71CFFD85800BBE24F /* Build configuration list for PBXNativeTarget "LYSideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				B24619A91CFFD85800BBE24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B24619AA1CFFD85800BBE24F /* Build configuration list for PBXNativeTarget "LYSideMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				B24619AC1CFFD85800BBE24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
